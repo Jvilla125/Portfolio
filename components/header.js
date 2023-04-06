@@ -18,6 +18,13 @@ export default function Header() {
                     <a class="nav-link disabled">Resume</a>
                 </li>
             </ul>
+            <hr
+                style={{
+                    background: "black",
+                    height: "3px",
+                    border: "none",
+                }}
+            />
         </div>
         {/* <div >
 

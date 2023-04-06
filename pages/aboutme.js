@@ -1,10 +1,11 @@
 import Header from "../components/header"
+import AboutMe from "../components/about"
 
 export default function AboutPage(){
     return(
         <>
         <Header/>
-        <h1>About</h1>
+        <AboutMe/>
         </>
     )
 }
