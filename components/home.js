@@ -6,7 +6,7 @@ export default function Index() {
     return (
         <>
             <div class="d-flex position-absolute top-50 start-50 translate-middle" >
-                <div class="flex-shrink-0">
+                <div >
                     <Image
                         src="/me.jpg"
                         width={250}

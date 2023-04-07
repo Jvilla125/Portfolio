@@ -26,12 +26,5 @@ export default function Header() {
                 }}
             />
         </div>
-        {/* <div >
-
-            <h1><Link href='/'>Home</Link></h1>
-            <h1><Link href="/aboutme">About Me</Link></h1>
-            <h1><Link href="/projects">Project</Link></h1>
-            <h1>Resume</h1>
-        </div> */}
     </>
 }
