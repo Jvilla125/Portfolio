@@ -7,22 +7,33 @@ i.bi {
     font-size: 50px;
 }
 
-.container-fluid{
-    padding: 25px; 
+.container-fluid {
+    padding: 25px;
     font-size: 20px;
 }
 
-@media (max-width: 576px) { 
-    .d-flex{
+@media (max-width: 576px) {
+    .d-flex {
         display: flex;
         flex-direction: column;
         align-content: center;
-        
+
     }
-    
+
 }
 
-.card{
+.card {
     background-color: grey;
-    
+
+}
+
+.card1 {
+
+    width: 500px;
+    height: 500px;
+    border: 5px;
+    border-radius: 24px;
+    background: #188586;
+    box-shadow: -26px -26px 3px #136869,
+        26px 26px 3px #1da2a3;
 }

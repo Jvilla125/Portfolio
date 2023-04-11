@@ -1,10 +1,11 @@
 import Header from "../components/header";
+import Projects from "../components/project";
 
 export default function ProjectPage(){
     return(
         <>
         <Header/>
-        <h1>Projects</h1>
+        <Projects/>
         </>
     )
 }
