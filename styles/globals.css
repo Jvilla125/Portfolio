@@ -1,6 +1,15 @@
-body {
+/* body {
     background-color: rgb(126, 124, 124);
     color: white;
+} */
+body {
+    background-image: url("../public/shattered-island.gif");
+    background-size: auto;
+    background-repeat: no-repeat center center cover;
+    color: white;
+}
+.Jeff{
+    font-size: 90px;
 }
 
 i.bi {
@@ -37,3 +46,7 @@ i.bi {
     box-shadow: -26px -26px 3px #136869,
         26px 26px 3px #1da2a3;
 }
+.nav{
+    font-size: 22px;
+}
+

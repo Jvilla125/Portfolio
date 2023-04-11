@@ -6,7 +6,7 @@ export default function Header() {
         <div class="container-fluid">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <Link class="nav-link active" aria-current="page" href="/">Home</Link>
+                    <Link class="nav-link white-text" aria-current="page" href="/">Home</Link>
                 </li>
                 <li class="nav-item">
                     <Link class="nav-link" href="/aboutme">About Me</Link>

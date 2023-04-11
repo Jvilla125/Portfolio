@@ -5,15 +5,19 @@ export default function Social() {
         <>
             <div class="container text-center">
                 <div class="row">
-                    <div class="col">
-                        <Link href="https://github.com/Jvilla125"><i className="bi bi-github" ></i></Link>
+                    <div class="col ">
+                        <Link href="https://github.com/Jvilla125" target="_blank"><i className="bi bi-github" ></i></Link>
                     </div>
                     <div class="col">
-                        <Link href="https://www.linkedin.com/in/jeffrey-villacorta/"><i className="bi bi-linkedin"></i></Link>
+                        <Link href="https://www.linkedin.com/in/jeffrey-villacorta/" target="_blank"><i className="bi bi-linkedin" ></i></Link>
                     </div>
                     <div class="col">
-                        <i class="bi bi-envelope-fill"></i>
+                        <i class="bi bi-envelope-fill" style={{color: "blue"}} onClick={() =>
+                                (window.location = "mailto:jeffalexv@gmail.com")
+                            }>
+                        </i>
                     </div>
+                    
                 </div>
             </div>
         </>
