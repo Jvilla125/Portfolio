@@ -6,7 +6,7 @@ export default function Index() {
     return (
         <>
             <div class="d-flex position-absolute top-50 start-50 translate-middle">
-                <div class="flex-grow-1 ms-5 container text-center">
+                <div class="flex-grow-1 ms-5 text-center">
                     <h1 class="Jeff">Jeffrey Villacorta</h1>
                     <br />
                     <h3> Software Engineer from Los Angeles, CA.</h3>

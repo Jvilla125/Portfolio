@@ -26,7 +26,12 @@ i.bi {
         display: flex;
         flex-direction: column;
         align-content: center;
-
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
     }
 
 }
@@ -37,7 +42,6 @@ i.bi {
 }
 
 .card1 {
-
     width: 500px;
     height: 500px;
     border: 5px;
