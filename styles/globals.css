@@ -8,7 +8,8 @@ body {
     background-repeat: no-repeat center center cover;
     color: white;
 }
-.Jeff{
+
+.Jeff {
     font-size: 90px;
 }
 
@@ -27,7 +28,8 @@ i.bi {
         flex-direction: column;
         align-content: center;
     }
-    .nav{
+
+    .nav {
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -37,7 +39,8 @@ i.bi {
 }
 
 .card {
-    background-color: grey;
+    background-color: #3f4f68bc;
+    outline: 2px solid rgb(111, 104, 104);
 
 }
 
@@ -50,7 +53,22 @@ i.bi {
     box-shadow: -26px -26px 3px #136869,
         26px 26px 3px #1da2a3;
 }
-.nav{
+
+.nav {
     font-size: 22px;
 }
 
+.flag {
+    width: 30px;
+    height: 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    float: right;
+}
+
+.peru {
+    background: linear-gradient(to right,
+            #db071e 33%,
+            #fff 33%,
+            #fff 66%,
+            #db071e 0);
+}

@@ -15,13 +15,19 @@ export default function Header() {
                     <Link class="nav-link" href="/projects">Projects</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled">Resume</a>
+                <Link
+                                class="nav-link"
+                                href='https://drive.google.com/file/d/1JWA5Bmg27_DE27uChdObV5ZjHntOAODE/view?usp=share_link'
+                                alt="alt text"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >Resume</Link>
                 </li>
             </ul>
             <hr
                 style={{
-                    background: "black",
-                    height: "3px",
+                    background: "white",
+                    height: "5px",
                     border: "none",
                 }}
             />

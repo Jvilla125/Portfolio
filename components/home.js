@@ -9,9 +9,8 @@ export default function Index() {
                 <div class="flex-grow-1 ms-5 text-center">
                     <h1 class="Jeff">Jeffrey Villacorta</h1>
                     <br />
-                    <h3> Software Engineer from Los Angeles, CA.</h3>
-
-                    <br />
+                    <h3> Hello, I'm Jeffrey and I am a Software Engineer from Los Angeles, CA.</h3>
+                    <br/>
                     <ul class="nav nav-underline justify-content-center">
                         <li class="nav-item">
                             <Link class="nav-link white-text active" aria-current="page" href="/">Home</Link>
@@ -32,7 +31,8 @@ export default function Index() {
                             >Resume</Link>
                         </li>
                     </ul>
-                    <br />
+                    <br/>
+                    <br/>
                     <Social />
                 </div>
             </div>
