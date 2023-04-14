@@ -3,6 +3,7 @@ import Image from 'next/image';
 export default function AboutMe() {
     return (
         <>
+        
             <h1 class="text-center">About Me</h1>
             <div class="card mx-auto" style={{ width: "30rem" }}>
                 <div class="card-body ">

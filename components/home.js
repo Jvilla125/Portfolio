@@ -9,7 +9,9 @@ export default function Index() {
                 <div class="flex-grow-1 ms-5 text-center">
                     <h1 class="Jeff">Jeffrey Villacorta</h1>
                     <br />
-                    <h3> Hello, I'm Jeffrey and I am a Software Engineer from Los Angeles, CA.</h3>
+                    <h2 style={{fontSize: "60px"}}>Software Engineer</h2>
+                    <br/>
+                    <h4 style={{fontSize: "35px"}}>Located in Los Angeles, CA. <i class="bi bi-geo-alt" style={{fontSize: "30px"}}></i></h4>
                     <br/>
                     <ul class="nav nav-underline justify-content-center">
                         <li class="nav-item">

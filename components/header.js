@@ -27,7 +27,7 @@ export default function Header() {
             <hr
                 style={{
                     background: "white",
-                    height: "5px",
+                    height: "3px",
                     border: "none",
                 }}
             />

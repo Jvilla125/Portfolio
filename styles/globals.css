@@ -7,6 +7,7 @@ body {
     background-size: auto;
     background-repeat: no-repeat center center cover;
     color: white;
+    font-family: Comic Sans;
 }
 
 .Jeff {
@@ -39,7 +40,7 @@ i.bi {
 }
 
 .card {
-    background-color: #3f4f68bc;
+    background-color: #53565bbc;
     outline: 2px solid rgb(111, 104, 104);
 
 }
