@@ -73,3 +73,10 @@ i.bi {
             #fff 66%,
             #db071e 0);
 }
+
+.col-project{
+    width: 450px;
+}
+.icon-badge{
+    font-size: 45px
+}
