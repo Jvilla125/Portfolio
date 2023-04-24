@@ -11,7 +11,7 @@ export default function Projects() {
                     <button class="nav-link active text" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Software Engineer Projects</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Other Projects</button>
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Project Engineer Projects</button>
                 </li>
             </ul>
             <div class="tab-content text-center" id="myTabContent">
@@ -138,8 +138,7 @@ export default function Projects() {
                                     <br />
                                     <h3>Summer 2019 - Fall 2019</h3>
                                     <h4> Intern Project Engineer</h4>
-                                    <h5>Responsibilites: </h5>
-                                    <p></p>
+                                    
                                 </div>
                                 <div class="card-footer">
                                     <Link href="https://swinerton.com/project/the-culver-studios-office-complex/" target="_blank"><button type="button" class="btn btn-primary">Link to Project</button></Link> <vr />
@@ -160,8 +159,8 @@ export default function Projects() {
                                     />
                                     <br />
                                     <br />
-                                    <p class="card-text">Using Google Authentication to login, you will be able to keep track of all the trips that you may have taken over the years.
-                                        As the user, you're able to upload details (Country, City, dates, and a brief description), images, and track your costs</p>
+                                    <h3>Fall 2019 - Spring 2020</h3>
+                                    <h4> Intern Project Engineer</h4>
 
                                 </div>
                                 <div class="card-footer">
@@ -169,27 +168,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-project mx-auto">
-                            <div class="card h-100" >
-                                <h2 class="card-header">UC Santa Cruz Kresge College</h2>
-                                <div class="card-body">
-                                    <Image
-                                        class="img-fluid rounded-start"
-                                        src="/kresge.jpeg"
-                                        width={400}
-                                        height={500}
-                                    />
-                                    <br />
-                                    <br />
-                                    <p class="card-text">Using Google Authentication to login, you will be able to keep track of all the trips that you may have taken over the years.
-                                        As the user, you're able to upload details (Country, City, dates, and a brief description), images, and track your costs</p>
-
-                                </div>
-                                <div class="card-footer">
-                                    <Link href="https://swinerton.com/project/ucsc-kresge-college/" target="_blank"><button type="button" class="btn btn-primary">Link to Project</button></Link> <vr />
-                                </div>
-                            </div>
-                        </div>
+                        
                         
 
                         <div class="col-project mx-auto">
@@ -204,7 +183,8 @@ export default function Projects() {
                                     />
                                     <br />
                                     <br />
-                                    <p class="card-text">A social media app designed around your favorite activity: Drinking! Share your greatest mix drink recipes and discover new ones from people all around the world!</p>
+                                    <h3>Summer 2020 - Winter 2022</h3>
+                                    <h4> Project Engineer</h4>
                                     
                                 </div>
                                 <div class="card-footer">
@@ -226,11 +206,8 @@ export default function Projects() {
                                     />
                                     <br />
                                     <br />
-                                    <p class="card-text">MusicBox is an application where users can login and upload a song they are currently listening to! Users can also see what everybody else is listening to.</p>
-                                    <p class="card-text">Languages Used: </p>
-                                    <SiReact class="icon-badge" style={{ color: "blue" }} />
-                                    <SiMongodb class="icon-badge" style={{ color: "green" }} />
-                                    <DiNodejs class="icon-badge" />
+                                    <h3>Winter 2022 - Summer 2022</h3>
+                                    <h4> Project Engineer</h4>
                                 </div>
                                 <div class="card-footer">
                                     <Link href="https://swinerton.com/project/mandarin-oriental-residences/" target="_blank"><button type="button" class="btn btn-primary">Link to Project</button></Link> <vr />

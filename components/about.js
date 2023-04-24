@@ -44,9 +44,7 @@ export default function AboutMe() {
                         <div class="card card-body">
                             <ul >
                                 <li>I am Peruvian <p class="flag peru"></p> </li>
-                                <li>I registered for a Marathon three months before on impulse. (I completed it)</li>
-
-
+                                <li>I registered for the LA Marathon three months before on impulse. (I finished!)</li>
                                 <li>On my free time I am either at the gym, playing guitar, or spending time with my family.</li>
 
                             </ul>
