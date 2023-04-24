@@ -89,3 +89,9 @@ i.bi {
 .social{
     width: 500px;
 }
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
