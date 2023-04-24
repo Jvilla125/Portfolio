@@ -7,11 +7,12 @@ export default function Index() {
         <>
             <div class="d-flex position-absolute top-50 start-50 translate-middle">
                 <div class="flex-grow-1 ms-5 text-center">
+                    <br/>
                     <h1 class="Jeff">Jeffrey Villacorta</h1>
                     <br />
-                    <h2 style={{fontSize: "60px"}}>Software Engineer</h2>
+                    <h2 style={{fontSize: "45px"}}>Software Engineer</h2>
                     <br/>
-                    <h4 style={{fontSize: "35px"}}>Located in Los Angeles, CA. <i class="bi bi-geo-alt" style={{fontSize: "30px"}}></i></h4>
+                    <h4 style={{fontSize: "30px"}}>Located in Los Angeles, CA. <i class="bi bi-geo-alt" style={{fontSize: "30px"}}></i></h4>
                     <br/>
                     <ul class="nav nav-underline justify-content-center">
                         <li class="nav-item">
@@ -34,8 +35,8 @@ export default function Index() {
                         </li>
                     </ul>
                     <br/>
-                    <br/>
                     <Social />
+                    <br/>
                 </div>
             </div>
         </>
