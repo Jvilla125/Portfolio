@@ -5,9 +5,10 @@ import Social from "../components/social"
 export default function Index() {
     return (
         <>
-            <div class="d-flex position-absolute top-50 start-50 translate-middle">
-                <div class="flex-grow-1 ms-5 text-center">
+            <div class="d-flex mx-auto">
+                <div class=" text-center">
                     <br/>
+                    <br/><br/>
                     <h1 class="Jeff">Jeffrey Villacorta</h1>
                     <br />
                     <h2 style={{fontSize: "45px"}}>Software Engineer</h2>

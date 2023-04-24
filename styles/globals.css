@@ -39,6 +39,9 @@ i.bi {
     .Jeff{
         font-size: 60px;
     }
+    .social{
+        width: 400px;
+    }
 
 }
 
@@ -82,4 +85,7 @@ i.bi {
 }
 .icon-badge{
     font-size: 45px
+}
+.social{
+    width: 500px;
 }

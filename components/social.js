@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Social() {
     return (
         <>
-            <div class="container text-center">
+            <div class="container text-center social">
                 <div class="row">
                     <div class="col ">
                         <Link href="https://github.com/Jvilla125" target="_blank"><i className="bi bi-github"  ></i></Link>
