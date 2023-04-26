@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import {SiTypescript} from "react-icons/si"
 export default function AboutMe() {
     return (
         <>
@@ -15,26 +15,24 @@ export default function AboutMe() {
                             height={350}
                         />
                         <br />
-                        <h5 class="card-title text-center">Jeffrey Villacorta</h5>
-                        <h6 class="text-center">27 years old</h6>
+                        <h3 class="card-title text-center">Jeffrey Villacorta</h3>
+                        <p class="text-center" style={{fontSize: "20px"}}><u>Current Status:</u> Learning Typescript <SiTypescript  style={{ fontSize: "40px", color: "lightblue" }}/></p>
                         <hr />
-                        <p class="card-text">Hello, I am a full stack Software Engineer who is super eager to learn and is always looking to take on new challenges. <br /> <br />
-                            <u>2018 - 2020</u><br />
-                            I graduated from University of Calfornia, Santa Cruz in 2020 with a B.A. in Computational Mathematics. Immediately after graduating, I landed an internship
-                            working with a Commerical General Contractor. <br /><br />
-                            <u>2020-2022</u> <br />
-                            I worked with <a target="_blank" href="https://swinerton.com/about-us/">Swinerton Builders</a> as a <u>Project Engineer</u> for over two years but decided that I wanted to make a career transition
-                            from Construction Management to Software Engineering. Even though construction management is different from software engineering, I gained relevant experience that I know I can carry on to my next career.  <br /><br />
+                        <p class="card-text">Hello! I'm a Full Stack Software Engineer who loves to take on new challenges and is always striving to learn more.  I'm passionate about using my skills to solve problems and create innovative solutions. 
+                        I have a strong drive to continually improve myself and learn as much as I can. <br /> <br />
 
-                            I realized that I wanted to incorporate my major into my field of work.
-                            I had taken intro to C++ and python courses but never really thought I could was able to grasped the concept of programming. So I enrolled into a coding bootcamps so
-                            I can figure out exactly what I want to do next. <br /><br />
-                            <u>2022+</u> <br />
-                            I recently graduated from <a target="_blank" href=" https://generalassemb.ly/education/software-engineering-immersive?&topic=&mkt_account_id=1056949875&mkt_campaign_id=1741487161&mkt_ad_group_id=68632981619&mkt_device_type=c&mkt_keyword=software%20engineering%20general%20assembly&mkt_matchtype=e&mkt_placement=&mkt_ad_id=549295011515&mkt_network=g&mkt_target_id=kwd-865210826802&mkt_feed_item_id=&utm_source=google&utm_medium=paid-search-bra&utm_campaign=TS:TX:BRA:LAX:BRTP:COD:SoftwareEngineering:GeneralAssembly&utm_content=PDP-FT&utm_term=software%20engineering%20general%20assembly&gclid=CjwKCAjw0N6hBhAUEiwAXab-TWTxm97rPeMQIgYH1lSWCqblJXDbU4-ecl6tj-HO18RUAaQD8UEIYhoC7wgQAvD_BwE&gclsrc=aw.ds">General Assembly's </a>
-                            software engineering bootcamp in October 2022.
-                            My next step in this transition is to continue to learn new languages, frameworks and skills that will land me a role as a Software Engineer. <br /><br />
+                        With a Bachelor of Arts in Computational Mathematics from the University of California, Santa Cruz, and hands-on experience in Construction Management and Software Engineering, 
+                    I possess a diverse skill set that allows me to approach challenges from different perspectives.<br /> <br />
+                    My professional journey started with an internship at a Commercial General Contractor, where I honed my project management, analytical, and problem-solving skills.  
+                    I then transitioned to a Project Engineer role at Swinerton Builders, where I applied my technical and interpersonal abilities to coordinate project activities and ensure timely delivery.
+                    Driven by a desire to merge my educational background with my interests, I enrolled in a coding bootcamp to start a career transition into Software Engineering. 
+                    I graduated from General Assembly's Software Engineering Bootcamp in October 2022, where I sharpened my skills in full-stack web development, software architecture, 
+                    and database design. <br /> <br />
+                    My goal is to continue to explore new technologies, languages, and frameworks that can enhance my abilities as a Software Engineer.
+                    I am confident that my expertise in software development, coupled with my strong work ethic and commitment to results, allows me to thrive in any professional setting.
                         </p>
                     </div>
+                    
                     <p class="text-center">
                         <a class="btn btn-outline-light " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                             Other Facts About Me <i class="bi bi-arrow-down-short" style={{ fontSize: "25px" }}></i>

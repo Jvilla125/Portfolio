@@ -27,6 +27,7 @@ export default function Projects() {
                                         src="/connectfour.png"
                                         width={250}
                                         height={350}
+                                        priority
                                     />
                                     <br />
                                     <br />
@@ -51,6 +52,7 @@ export default function Projects() {
                                         src="/travel.png"
                                         width={400}
                                         height={500}
+                                        priority
                                     />
                                     <br />
                                     <br />
@@ -76,6 +78,7 @@ export default function Projects() {
                                         src="/idrunk.png"
                                         width={400}
                                         height={500}
+                                        priority
                                     />
                                     <br />
                                     <br />
@@ -101,6 +104,7 @@ export default function Projects() {
                                         src="/musicbox.png"
                                         width={400}
                                         height={500}
+                                        priority
                                     />
                                     <br />
                                     <br />
@@ -133,6 +137,7 @@ export default function Projects() {
                                         src="/culver.jpeg"
                                         width={420}
                                         height={500}
+                                        priority
                                     />
                                     <br />
                                     <br />
@@ -156,6 +161,7 @@ export default function Projects() {
                                         src="/kresge.jpeg"
                                         width={400}
                                         height={500}
+                                        priority
                                     />
                                     <br />
                                     <br />
@@ -180,6 +186,7 @@ export default function Projects() {
                                         src="/westfield.jpeg"
                                         width={400}
                                         height={500}
+                                        priority
                                     />
                                     <br />
                                     <br />
@@ -203,6 +210,7 @@ export default function Projects() {
                                         src="/wilshire.jpeg"
                                         width={400}
                                         height={500}
+                                        priority
                                     />
                                     <br />
                                     <br />
@@ -220,103 +228,3 @@ export default function Projects() {
         </>
     )
 }
-
-// <div class="row row-cols-1 row-cols-md-3 g-2">
-//                         <div class="col-project mx-auto">
-//                             <div class="card h-100" >
-//                                 <h2 class="card-header">Connect Four</h2>
-//                                 <div class="card-body">
-//                                     <Image
-//                                         class="img-fluid rounded-start"
-//                                         src="/connectfour.png"
-//                                         width={250}
-//                                         height={350}
-//                                     />
-//                                     <br />
-//                                     <br />
-//                                     <p class="card-text">A remake of the classic game of connect four where you can play against your friend!</p>
-//                                     <p class="card-text">Languages Used: </p>
-//                                     <SiJavascript class="icon-badge" style={{ color: "yellow" }} />
-//                                     <SiCss3 class="icon-badge" style={{ color: "blue" }} />
-//                                     <SiHtml5 class="icon-badge" style={{ color: "orange" }} />
-//                                 </div>
-//                                 <div class="card-footer">
-//                                     <Link href="https://github.com/Jvilla125/P1-Connect-Four" target="_blank"><button type="button" class="btn btn-primary">Github Link</button></Link> <vr />
-//                                     <Link href="https://jvilla125.github.io/P1-Connect-Four/" target="_blank"><button type="button" class="btn btn-primary">Play Connect four!</button></Link>
-//                                 </div>
-//                             </div>
-//                         </div>
-//                         <div class="col-project mx-auto">
-//                             <div class="card h-100" >
-//                                 <h2 class="card-header">Travel App Tracker</h2>
-//                                 <div class="card-body">
-//                                     <Image
-//                                         class="img-fluid rounded-start"
-//                                         src="/travel.png"
-//                                         width={400}
-//                                         height={500}
-//                                     />
-//                                     <br />
-//                                     <br />
-//                                     <p class="card-text">Using Google Authentication to login, you will be able to keep track of all the trips that you may have taken over the years.
-//                                         As the user, you're able to upload details (Country, City, dates, and a brief description), images, and track your costs</p>
-//                                     <p class="card-text">Languages Used: </p>
-//                                     <SiJavascript class="icon-badge" style={{ color: "yellow" }} />
-//                                     <SiCss3 class="icon-badge" style={{ color: "blue" }} />
-//                                     <SiHtml5 class="icon-badge" style={{ color: "orange" }} />
-//                                 </div>
-//                                 <div class="card-footer">
-//                                     <Link href="https://github.com/Jvilla125/Travel-App-Tracker" target="_blank"><button type="button" class="btn btn-primary">Github Link</button></Link> <vr />
-//                                     <Link href="https://travel-app-tracker.cyclic.app/" target="_blank"><button type="button" class="btn btn-primary">Travel App Tracker</button></Link>
-//                                 </div>
-//                             </div>
-//                         </div>
-//                         <div class="col-project mx-auto">
-//                             <div class="card h-100" >
-//                                 <h2 class="card-header">iDrunk</h2>
-//                                 <div class="card-body">
-//                                     <Image
-//                                         class="img-fluid rounded-start"
-//                                         src="/idrunk.png"
-//                                         width={400}
-//                                         height={500}
-//                                     />
-//                                     <br />
-//                                     <br />
-//                                     <p class="card-text">A social media app designed around your favorite activity: Drinking! Share your greatest mix drink recipes and discover new ones from people all around the world!</p>
-//                                     <p class="card-text">Languages Used: </p>
-//                                     <SiPython class="icon-badge" style={{ color: "yellow" }} />
-//                                     <DiDjango class="icon-badge" style={{ color: "green", background: "white" }} />
-//                                     <SiPostgresql class="icon-badge" style={{ color: "white", background: "blue" }} />
-//                                     <SiBootstrap class="icon-badge" style={{ color: "purple" }} />
-//                                 </div>
-//                                 <div class="card-footer">
-//                                     <Link href="https://github.com/jshprintz/iDrunk" target="_blank"><button type="button" class="btn btn-primary">Github Link</button></Link> <vr />
-//                                     <Link href="https://idrunk1.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary">iDrunk</button></Link>
-//                                 </div>
-//                             </div>
-//                         </div>
-//                         <div class="col-project mx-auto">
-//                             <div class="card h-100" >
-//                                 <h2 class="card-header">Music Box</h2>
-//                                 <div class="card-body">
-//                                     <Image
-//                                         class="img-fluid rounded-start"
-//                                         src="/musicbox.png"
-//                                         width={400}
-//                                         height={500}
-//                                     />
-//                                     <br />
-//                                     <br />
-//                                     <p class="card-text">MusicBox is an application where users can login and upload a song they are currently listening to! Users can also see what everybody else is listening to.</p>
-//                                     <p class="card-text">Languages Used: </p>
-//                                     <SiReact class="icon-badge" style={{ color: "blue" }} />
-//                                     <SiMongodb class="icon-badge" style={{ color: "green" }} />
-//                                     <DiNodejs class="icon-badge" />
-//                                 </div>
-//                                 <div class="card-footer">
-//                                     <Link href="https://github.com/Jvilla125/MusicBox" target="_blank"><button type="button" class="btn btn-primary">Github Link</button></Link> <vr />
-//                                     <Link href="https://musicbox4.herokuapp.com/Login" target="_blank"><button type="button" class="btn btn-primary">MusicBox</button></Link>
-//                                 </div>
-//                             </div>
-//                         </div>

@@ -5,15 +5,13 @@ import Social from "../components/social"
 export default function Index() {
     return (
         <>
-            <div class="d-flex mx-auto">
+                <div class="d-flex align-items-center justify-content-center " style={{height: "850px"}}>
                 <div class="text-center">
-                    <br/>
-                    <br/><br/>
                     <h1 class="Jeff">Jeffrey Villacorta</h1>
                     <br />
-                    <h2 style={{fontSize: "45px"}}>Software Engineer</h2>
+                    <h2 style={{fontSize: "43px"}}>Software Engineer</h2>
                     <br/>
-                    <h4 style={{fontSize: "30px"}}>Located in Los Angeles, CA. <i class="bi bi-geo-alt" style={{fontSize: "30px"}}></i></h4>
+                    <h4 style={{fontSize: "25px"}}>Located in Los Angeles, CA. <i class="bi bi-geo-alt" style={{fontSize: "30px"}}></i></h4>
                     <br/>
                     <ul class="nav nav-underline justify-content-center">
                         <li class="nav-item">
