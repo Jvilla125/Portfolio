@@ -26,7 +26,7 @@ export default function Index() {
                         <li class="nav-item">
                             <Link
                                 class="nav-link"
-                                href='https://drive.google.com/file/d/1b6F9hsLZezOecrf5RPqoO0DtlPmaqgnD/view?usp=sharing'
+                                href='https://drive.google.com/file/d/1Zc-R9o965VSYcnp1yvynpUQs0w30bpJ4/view?usp=sharing'
                                 alt="alt text"
                                 target="_blank"
                                 rel="noopener noreferrer"
